@@ -158,6 +158,30 @@ namespace CSBasic
             Console.WriteLine(--number);
             Console.WriteLine(number);
 
+            //자료형 검사
+            int _int = 273;
+            long _long = 522731033265;
+
+            float _float = 52.273F;
+            double _double = 52.273;
+            char _char = '귤';
+            string _string = "문자열";
+
+            Console.WriteLine(_int.GetType());
+            Console.WriteLine(_long.GetType());
+            Console.WriteLine(_float.GetType());
+            Console.WriteLine(_double.GetType());
+            Console.WriteLine(_char.GetType());
+            Console.WriteLine(_string.GetType());
+
+            //직접적인 GetType()
+            Console.WriteLine((273).GetType());
+            Console.WriteLine((522731033265L).GetType());
+            Console.WriteLine((52.273F).GetType());
+            Console.WriteLine((52.273).GetType());
+            Console.WriteLine(('자').GetType());
+            Console.WriteLine(("문자열").GetType());
+
             //강제 형변환
             //long longNumber = 2147483647L + 2147483647L;
             long longNumber = 100;
@@ -223,7 +247,18 @@ namespace CSBasic
 
             char ch = 'a';
             string outputB = ch + "";
+            //string outputD = 3;
             Console.WriteLine(outputB);
+
+            //string to bool 변환
+            Console.WriteLine(bool.Parse("True"));
+            Console.WriteLine(bool.Parse("true"));
+            Console.WriteLine(bool.Parse("Frue"));
+            Console.WriteLine(bool.Parse("frue"));
+            //최댓값 최솟값은 상수로!
+            Console.WriteLine(-1 * int.MaxValue);
+            //Console.WriteLine(-1 * int.MinValue);
+            Console.WriteLine(-1L * int.MinValue);
         }
     }
 }
