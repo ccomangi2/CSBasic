@@ -139,6 +139,25 @@ namespace CSBasic
 
             Console.WriteLine(output2);
 
+            //증감 연산자
+            int number = 10;
+            number++;
+            Console.WriteLine(number);
+            number--;
+            Console.WriteLine(number);
+
+            //전위
+            Console.WriteLine(number);
+            Console.WriteLine(number++);
+            Console.WriteLine(number--);
+            Console.WriteLine(number);
+
+            //후위
+            Console.WriteLine(number);
+            Console.WriteLine(++number);
+            Console.WriteLine(--number);
+            Console.WriteLine(number);
+
             //강제 형변환
             //long longNumber = 2147483647L + 2147483647L;
             long longNumber = 100;
@@ -197,6 +216,14 @@ namespace CSBasic
             Console.WriteLine(52 + 3 + "");
             Console.WriteLine("" + 52 + 3);
             Console.WriteLine(52 + "" + 3);
+
+            number = 273;
+            string outputA = number + "";
+            Console.WriteLine(number);
+
+            char ch = 'a';
+            string outputB = ch + "";
+            Console.WriteLine(outputB);
         }
     }
 }
