@@ -265,7 +265,7 @@ namespace CSBasic
             //최댓값 최솟값은 상수로!
             Console.WriteLine(-1 * int.MaxValue);
             //Console.WriteLine(-1 * int.MinValue);
-            Console.WriteLine(-1L * int.MinValue);
+            Console.WriteLine(-1L * int.MinValue); 
         }
     }
 }
