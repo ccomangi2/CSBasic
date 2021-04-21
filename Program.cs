@@ -182,6 +182,9 @@ namespace CSBasic
             Console.WriteLine(('자').GetType());
             Console.WriteLine(("문자열").GetType());
 
+            //var 키워드
+            var num = 100;
+
             //강제 형변환
             //long longNumber = 2147483647L + 2147483647L;
             long longNumber = 100;
