@@ -6,7 +6,6 @@ namespace CSBasic
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello C# Progeamming ..!");
             var name = "이" + "수" + "빈";
             Console.Write("개행이 안되는 녀석");
             Console.WriteLine("개행이 되는 녀석");
@@ -21,14 +20,7 @@ namespace CSBasic
              * 여러 줄 주석
              */
 
-            Console.WriteLine(52);
-            // Arithmetic Opertor + - * /
-            Console.WriteLine(52 + 273);
-            // Opertor
-            Console.WriteLine(5 + 3 * 2);
-            Console.WriteLine(10 / 5);
-            Console.WriteLine(10 % 5);
-            Console.WriteLine(7 / 3);
+  
         }
     }
 }
