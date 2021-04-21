@@ -123,6 +123,22 @@ namespace CSBasic
             Console.WriteLine(one);
             Console.WriteLine(other);
 
+            //복합 대입 연산자
+            //숫자
+            int output = 0;
+            output += 52;
+            output += 273;
+            output += 103;
+
+            Console.WriteLine(output);
+
+            //문자열
+            string output2 = "hello";
+            output2 += "world";
+            output2 += "!";
+
+            Console.WriteLine(output2);
+
             //강제 형변환
             //long longNumber = 2147483647L + 2147483647L;
             long longNumber = 100;
@@ -166,6 +182,21 @@ namespace CSBasic
             }
 
             Console.WriteLine((10).ToString());
+            Console.WriteLine((52.273).ToString());
+            Console.WriteLine(('a').ToString());
+            Console.WriteLine((true).ToString());
+            Console.WriteLine((false).ToString());
+
+            double number2 = 52.273103;
+            Console.WriteLine(number2.ToString("0.0"));
+            Console.WriteLine(number2.ToString("0.00"));
+            Console.WriteLine(number2.ToString("0.000"));
+            Console.WriteLine(number2.ToString("0.0000"));
+
+            Console.WriteLine(52 + "");
+            Console.WriteLine(52 + 3 + "");
+            Console.WriteLine("" + 52 + 3);
+            Console.WriteLine(52 + "" + 3);
         }
     }
 }
