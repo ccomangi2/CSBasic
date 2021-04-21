@@ -185,6 +185,10 @@ namespace CSBasic
             //var 키워드
             var num = 100;
 
+            //입력
+            string input = Console.ReadLine();
+            Console.WriteLine("input: " + input);
+
             //강제 형변환
             //long longNumber = 2147483647L + 2147483647L;
             long longNumber = 100;
