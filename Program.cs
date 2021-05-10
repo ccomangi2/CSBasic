@@ -265,7 +265,20 @@ namespace CSBasic
             //최댓값 최솟값은 상수로!
             Console.WriteLine(-1 * int.MaxValue);
             //Console.WriteLine(-1 * int.MinValue);
-            Console.WriteLine(-1L * int.MinValue); 
+            Console.WriteLine(-1L * int.MinValue);
+
+            //if 조건문
+            Console.Write("숫자 입력: ");
+            int input2 = int.Parse(Console.ReadLine());
+            
+            if(input2 % 2 == 0)
+            {
+                Console.WriteLine("짝수입니다!");
+            }
+            if (input2 % 2 == 1)
+            {
+                Console.WriteLine("홀수입니다!");
+            }
         }
     }
 }
