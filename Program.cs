@@ -279,6 +279,16 @@ namespace CSBasic
             {
                 Console.WriteLine("홀수입니다!");
             }
+
+            //if else 조건문
+            if (input2 % 2 == 0)
+            {
+                Console.WriteLine("짝수입니다!");
+            }
+            else
+            {
+                Console.WriteLine("홀수입니다!");
+            }
         }
     }
 }
