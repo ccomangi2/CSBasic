@@ -331,6 +331,21 @@ namespace CSBasic
                     Console.WriteLine("홀수입니다.");
                     break;
             }
+
+            //삼항 연산자
+            //참과 거짓 위치에 불 자료형 사용
+            Console.WriteLine(number % 2 == 0 ? true : false);
+
+            //참과 거짓 위치에 문자열 자료형 사용
+            Console.WriteLine(number % 2 == 0 ? "짝수" : "홀수");
+
+            //숫자의 부호를 비교하여 자연수인지 판별
+            //변수를 선언합니다.
+            string input3 = Console.ReadLine();
+            int number3 = int.Parse(input3);
+
+            //조건을 구분합니다.
+            Console.WriteLine(number > 0 ? "자연수입니다" : "자연수가 아닙니다");
         }
     }
 }
